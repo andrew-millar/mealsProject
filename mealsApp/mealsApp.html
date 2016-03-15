@@ -3,12 +3,47 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
 </body>
 
 <template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<!-- select a type of meal -->
+<template name="selectoin">
+  <select>
+    {{#each option}}
+    <option>{{option}}</option>
+    {{/each}}
+  </select>
+</template>
+
+<!-- show single meal -->
+<template name="meal">
+  <div id="meal">
+    <h2>{{title}}</h2>
+    <div id="ingredients">
+      <ul>
+        {{#each ingredient}}
+        <li>{{ingredient}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div id="methods">
+      <ul>
+        {{#each method}}
+        <li>{{method}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</template>
+
+<!-- list of selected meals -->
+<template name="meals-list">
+  {{#each meal}}
+  <li>
+    <a href="">{{title}}</a>, {{description}}
+  </li>
+  {{/each}}
 </template>
