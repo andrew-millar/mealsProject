@@ -31,14 +31,14 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["hollands","soep", "nogiets"],
+    tags:["hollands", "soep", "nogiets"],
 		source:""
   },
   {
     id:"3",
     title:"Mosterd Soep",
     description:"",
-    ingredients: ["", ""], 
+    ingredients: ["200gr aardappelen", "mosterd", "200ml slag/kook-room", "kippen boullion", "een prei", "een ui", "spek", "boter of olie"], 
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
@@ -53,7 +53,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["vega","Italiaans"],
+    tags:["vega", "Italiaans"],
 		source:""
   },
   {
@@ -64,7 +64,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["mexicaans","rijst"],
+    tags:["mexicaans", "rijst"],
 		source:""
   },
   {
@@ -75,7 +75,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["idiaas","vega"],
+    tags:["idiaas", "vega"],
 		source:""
   },
   {
@@ -86,7 +86,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["pasta","italiaans"],
+    tags:["pasta", "italiaans"],
 		source:""
   },
   {
@@ -97,7 +97,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["pasta","italiaans"],
+    tags:["pasta", "italiaans"],
 		source:""
   },
   {
@@ -130,59 +130,27 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["nederlands","aardappel", "meat", "winter"],
+    tags:["nederlands", "aardappel", "meat", "winter"],
 		source:""
   },
   {
     id:"12",
     title:"Stampot boerenkool",
     description:"",
-    ingredients: [
-      "1kg Aardappelen", 
-      "400gr boerenkool", 
-      "gerookte worst", 
-      "uien",
-      "150ml melk",
-      "60gr boter",
-      "optioneel: 150gr Spekjes"
-    ], 
+    ingredients: ["1kg Aardappelen", "400gr boerenkool", "gerookte worst", "uien", "150ml melk", "60gr boter", "optioneel: 150gr Spekjes"], 
     groceries: ["", ""], 
-    methods: [
-      "Zet de rookworst op het vuur in ruim water, voorkom koken.",
-      "Schil de aardappellen en snij ze in stukken en zet ze in ruim water op het vuur in een ruime pan.", 
-      "Snij de boerenkool in kleine stukken.", 
-      "Snij de uien in ringen.", 
-      "Als het water van de aardappellen kookt voeg dan de Boerenkool toen aan de pan met aardappellen en laat het geheel koken tot de aardappellen gaar zijn."],
-      "Bak de uien (en spekjes) in een kleine steelpal naar smaak.",
-      "Wanneer de aardappellen gaar zijn voeg dan de melk toe plus de boter en stamp het geheel tot de aardappellen zijn fijngestampt, voeg hier eventueel de spekjes toe.",
-      "Verdeel de worst en de uien."
-    ]
+    methods: ["Zet de rookworst op het vuur in ruim water, voorkom koken.","Schil de aardappellen en snij ze in stukken en zet ze in ruim water op het vuur in een ruime pan.", "Snij de boerenkool in kleine stukken.", "Snij de uien in ringen.", "Als het water van de aardappellen kookt voeg dan de Boerenkool toen aan de pan met aardappellen en laat het geheel koken tot de aardappellen gaar zijn.", "Bak de uien (en spekjes) in een kleine steelpal naar smaak.", "Wanneer de aardappellen gaar zijn voeg dan de melk toe plus de boter en stamp het geheel tot de aardappellen zijn fijngestampt, voeg hier eventueel de spekjes toe.", "Verdeel de worst en de uien."]
     materials: ["", ""], 
-    tags:["nederlands","aardappel", "meat", "winter"],
+    tags:["nederlands", "aardappel", "meat", "winter"],
 		source:""
   },
   {
     id:"13",
     title:"Chorizo bolognese",
     description:"",
-    ingredients: [
-      "dried chorizo (+-200g), coursely chopped", 
-      "1 tablespoon extra virgin olive oil", 
-      "2 sprigs rosemary, leaves picked (optional)", 
-      "¼ teaspoon dried chilli flakes",
-      "2 cloves garlic, crushed",
-      "sea salt and cracked black pepper",
-      "½ cup (125ml) red wine",
-      "400g can chopped tomatoes",
-      "2 tablespoons brown sugar",
-      "4 servings tagliatelle",
-      "250g buffalo mozzarella, torn"], 
+    ingredients: ["dried chorizo (+-200g), coursely chopped", "1 tablespoon extra virgin olive oil", "2 sprigs rosemary, leaves picked (optional)", "¼ teaspoon dried chilli flakes", "2 cloves garlic, crushed", "sea salt and cracked black pepper", "½ cup (125ml) red wine", "400g can chopped tomatoes", "2 tablespoons brown sugar", "4 servings tagliatelle", "250g buffalo mozzarella, torn"],
     groceries: ["chorizo", "garlic", "wine", "400g tin tomato, chopped", "tagliatelle", "mozzarella"],
-    methods: [
-      "Place the chorizo in a food processor and process until finely chopped. Set aside.",
-      "Heat the oil in a large frying pan over high heat. Add the rosemary and cook for 30 seconds or until crisp. Remove and set aside.",
-      "Add the chorizo, chilli, garlic, salt and pepper to the pan and cook, stirring, for 3–4 minutes or until golden and crispy. Add the wine and cook for 30 seconds. Add the tomato and sugar and bring to a simmer. Reduce the heat to medium, cover with a lid and cook for 5–6 minutes or until the liquid has slightly reduced. While the chorizo mixture is cooking, cook the pasta in a large saucepan of salted boiling water for 6–8 minutes or until al dente. Drain, reserving ½ cup (125ml) of the cooking liquid. Add the reserved cooking liquid to the chorizo mixture and stir to combine.",
-      "Top the pasta with the chorizo mixture, mozzarella, crispy rosemary and pepper to serve. Serves 4."], 
+    methods: ["Place the chorizo in a food processor and process until finely chopped. Set aside.", "Heat the oil in a large frying pan over high heat. Add the rosemary and cook for 30 seconds or until crisp. Remove and set aside.", "Add the chorizo, chilli, garlic, salt and pepper to the pan and cook, stirring, for 3–4 minutes or until golden and crispy. Add the wine and cook for 30 seconds. Add the tomato and sugar and bring to a simmer. Reduce the heat to medium, cover with a lid and cook for 5–6 minutes or until the liquid has slightly reduced. While the chorizo mixture is cooking, cook the pasta in a large saucepan of salted boiling water for 6–8 minutes or until al dente. Drain, reserving ½ cup (125ml) of the cooking liquid. Add the reserved cooking liquid to the chorizo mixture and stir to combine.", "Top the pasta with the chorizo mixture, mozzarella, crispy rosemary and pepper to serve. Serves 4."], 
     materials: ["", ""], 
     tags:["italiaans", "pasta"],
 		source:"https://www.donnahay.com.au/recipes/fast-weeknights/chorizo-bolognese-with-buffalo-mozzarella"
@@ -206,7 +174,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["oosters","kip", "paksoi"],
+    tags:["oosters", "kip", "paksoi"],
     source:""
   },
   {
@@ -217,7 +185,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["vega","linzen"],
+    tags:["vega", "linzen"],
     source:""
   },
   {
@@ -228,7 +196,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["italiaans",""],
+    tags:["italiaans", ""],
     source:""
   },
   {
@@ -239,7 +207,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["oosters","vega"],
+    tags:["oosters", "vega"],
     source:""
   },
   {
@@ -250,7 +218,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["italiaans","rijst"],
+    tags:["italiaans", "rijst"],
     source:""
   },
   {
@@ -261,7 +229,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["hongaars","stew"],
+    tags:["hongaars", "stew"],
     source:""
   },
   {
@@ -272,7 +240,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["mexicaans",""],
+    tags:["mexicaans", ""],
     source:""
   },
   {
@@ -283,7 +251,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["italiaans","pasta"],
+    tags:["italiaans", "pasta"],
     source:""
   },
   {
@@ -293,7 +261,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["venezuelaans",""],
+    tags:["venezuelaans", ""],
     source:""
   },
   {
@@ -304,7 +272,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["oosters","Indo", "rijst"],
+    tags:["oosters", "Indo", "rijst"],
     source:""
   },
   {
@@ -315,7 +283,7 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["nederlands","aardappelen", "stew"],
+    tags:["nederlands", "aardappelen", "stew"],
     source:""
   },
   {
@@ -326,9 +294,12 @@ var meals = [
     groceries: ["", ""], 
     methods: ["", ""],
     materials: ["", ""], 
-    tags:["nederlands","aardappel"],
+    tags:["nederlands", "aardappel"],
     source:""
   },
+  {
+    "mosterd pasta"
+  }
   // {
   //   id:"",
   //   title:"",

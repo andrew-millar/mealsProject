@@ -6,9 +6,6 @@
 
 </body>
 
-<template name="hello">
-</template>
-
 <!-- select a type of meal -->
 <template name="selectoin">
   <select>
@@ -41,9 +38,11 @@
 
 <!-- list of selected meals -->
 <template name="meals-list">
+  <ul>
   {{#each meal}}
-  <li>
-    <a href="">{{title}}</a>, {{description}}
-  </li>
+    <li>
+      <a href="">{{title}}</a>, {{description}}
+    </li>
   {{/each}}
+  </ul>
 </template>
